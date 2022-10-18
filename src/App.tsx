@@ -1,26 +1,31 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+/** @jsxImportSource @emotion/react */
+import { jsx } from "@emotion/react";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
+    return (
+        <div
+            css={{
+                width: "100vw",
+                height: "100vh",
+
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+
+                color: "white",
+                fontSize: "32px",
+                fontWeight: "bold",
+                textAlign: "center",
+
+                background: "#333333",
+            }}
         >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+            Hello React!
+            <br />
+            <br />
+            React, Typescript, Emotion, Yarn Berry, React-Query(설치중), Recoil(설치중)
+        </div>
+    );
 }
 
 export default App;
