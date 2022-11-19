@@ -1,6 +1,5 @@
 /** @jsxImportSource @emotion/react */
 import { jsx } from "@emotion/react";
-import { RecoilRoot, atom, selector, useRecoilState, useRecoilValue } from "recoil";
 
 function Main() {
     return (

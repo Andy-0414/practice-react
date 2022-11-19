@@ -1,6 +1,5 @@
 /** @jsxImportSource @emotion/react */
 import { jsx } from "@emotion/react";
-import { RecoilRoot, atom, selector, useRecoilState, useRecoilValue } from "recoil";
 
 function Sub() {
     return (
@@ -20,12 +19,7 @@ function Sub() {
 
                 background: "#333333",
             }}
-        >
-            Hello React Router!
-            <br />
-            <br />
-            Sub Page
-        </div>
+        ></div>
     );
 }
 

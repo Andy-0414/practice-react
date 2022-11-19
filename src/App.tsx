@@ -1,6 +1,6 @@
 /** @jsxImportSource @emotion/react */
 import { jsx } from "@emotion/react";
-import { RecoilRoot, atom, selector, useRecoilState, useRecoilValue } from "recoil";
+import { RecoilRoot } from "recoil";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import Main from "./pages/main";
