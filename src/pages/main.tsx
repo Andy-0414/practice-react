@@ -1,7 +1,16 @@
 /** @jsxImportSource @emotion/react */
 import { jsx } from "@emotion/react";
+import { useEffect } from "react";
+import { useDialog } from "../hooks/use-dialog/useDianlog";
 
 function Main() {
+    const { showDialog, hideDialog } = useDialog();
+
+    useEffect(() => {
+        showDialog("다이얼로그 테스트");
+        setTimeout(() => hideDialog(), 2000);
+    }, []);
+
     return (
         <div
             css={{
